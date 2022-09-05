@@ -1,3 +1,5 @@
+Blog Projeleri için [https://ulkudilemre.github.io/kodluyoruzilkrepo/](https://ulkudilemre.github.io/kodluyoruzilkrepo/)
+
 # Kodluyoruz Ilk Repo
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Git Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet index.html barındırıyor.
