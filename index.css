@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    margin: 0px;
+    font-family: 'Roboto 500 ', sans-serif;
+}
+
+header {
+    display: block;
+    background-color: #427F99;
+    padding: 1%;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 100%;
+    background: #CCCCCC;
+    padding: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+li a{
+    margin: 0;
+    display: block;
+    color: #427F99;
+    padding: 8px 16px;
+    text-decoration: none
+}
+
+li a:hover {
+    background-color: #427F99;
+    color: white;
+    font-size: 125%;
+}
+
+article {
+    min-height: calc(100vh - 70px);
+    min-height: 100%;
+    text-align: justify;
+    align-content: center;
+    margin: auto;
+    width: 85%;
+    background-color: white;
+    font-size: 120%;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    position: absolute;
+    background-color: #427F99;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+div {
+    margin: auto;
+}
+
+.big-header {
+    margin-bottom:0;
+    margin-top: 15px;
+}
+
+.little-header {
+    margin-top : 0; 
+    margin-bottom: 15px;
+    padding-top:0;
+    font-style: italic;
+}
+
+.sample {
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
+}
+
