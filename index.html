@@ -1,1 +1,85 @@
-<h1>deneme</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/media/icons/favicon.ico">
+        <title>Dilemre Ülkü</title>
+        <meta name="description" content="Minik Bir Blog">
+        <meta name="keywords" content="yapay zeka, artificial intelligence, veri bilimi,  data science, dilemre ülkü, pekiştirmeli öğrenme">
+        <meta name="author" content="Dilemre Ülkü">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="big-header" style="font-weight: 700;">Kendi Kendine Öğrenenen Makineler</h1> 
+            <h2 class="little-header" style="font-weight: 100;">Pekiştirmeli Öğrenmeye Kısa Bir Bakış</h2>
+        </header>
+        <section>
+            <article>
+                <p> 
+                    Yapay zeka denince neredeyse herkesin aklında robotlar canlanır. Bazen bu robotlar insan şeklinde, genellikle ürperticidir.
+                    Bazen ise, örneklerini görmeye başladığımız, hayvan şeklinde, eğlenceli ve daha dost canlısı da olabilir. Hangi senaryo aklınızda 
+                    canlanırsa canlansın bu robotlarda değişmeyen tek detay, aklımızda bilinçliymiş gibi canlandırmamızdır. Bilinç nedir? Yapay zeka 
+                    bilinç kazanabilir mi kazanamaz mı tartışmalarına girmeden, sıklıkla robotikte ve oyunlarda kullanılan ve fazlasıyla bilinçliymiş 
+                    gibi öğrenebilen pekiştirmeli öğrenmeden bahsedelim.
+                </p>
+                <h3 class="big-header" style="font-weight: 700;">Pekiştirmeli Öğrenme Nedir?</h3>
+                <h4 class="little-header" style="font-weight: 100;">What Is Reinforcement Learning?</h4>
+                <p>
+                    Pekiştirmeli öğrenme, makine öğreniminin bir dalıdır. Ajan dediğimiz yapay zeka modelimiz daha çok oyun benzeri bir durumla karşı karşıyadır.
+                    Belirsiz ve potansiyel olarak karmaşık bir ortamda, hedefe ulaşması için doğru yaptığı her eylemde ödül puanı, yanlış yaptığı her eylemde ceza 
+                    puanı verilir ve ajan daha çok puan toplamak için bu ortamda nasıl davranması gerektiğini öğrenir. Kavramlara girmeden önce özellikle oyun ve robotik 
+                    alanlarında popüler olan pekiştirtirmeli öğrenmenin çok tanınan örneklerine bakalım.
+                </p>
+                <div class="sample">
+                    <img src="media\yazilar\kendi-kendine-ogrenen-makineler\AlphaGo.gif", alt="AlphaGo">
+                    <h3 class="big-header", style="font-weight: 700; text-align: center;">AlphaGo</h3>
+                    <p>
+                        Belki de en popüler ve tarihi öneme sahip diyebileceğimiz örneklerden biri AlphaGo'dur. 2015 yılında Google DeepMind'ın geliştirdiği AlphaGo 129.960 olasılık 
+                        barındıran, Çin kökenli iki kişilik bir strateji oyunu olan go'yu oynayan bir programdır. Onu bu kadar özel yapan ise profesyonel bir go oyuncusunu
+                        yenen ilk bilgisayar programı olmasıdır. Bu zaferden sonra toplulukların dikkatini pekiştirmeli öğrnmeye çekmiştir.
+                    </p>
+                </div>
+                <div class="sample">
+                    <iframe width="720" height="480"
+                        src="https://www.youtube.com/embed/UZHTNBMAfAA">
+                    </iframe>
+                    <h3 class="big-header", style="font-weight: 700; text-align: center;">Openai-Five</h3>
+                    <p>
+                        Popüler pekiştirmeli öğrenme kütüphanesi Openai Gym'i de geliştirmiş olan Openai, popüler 5v5 moba oyunu olan Dota 2 oynayabilen Five'ı 2016 yılında
+                        geliştirmeye başladı. İlk 2017'de 1v1 olarak karşılaştığı profesyonel dota oyuncusunu yenen Five, 2018 yılında 5v5 olarak bir çok profesyonel takımı
+                        yendikten sonra 2019 yılında dünya şampiyonu OG'ye karşı oynayarak, bir espor oyununda dünya şampiyonlarını yenen ilk yapay zeka olma ünvanını kazandı.
+                        OpenAI Five, profesyonel takımları yenebileceği beceri seviyesine ulaşmak için Dota'yı 45.000 yıl boyunca (birçok bilgisayarda hızlandırılmış ve paralel 
+                        olarak) sürekli olarak oynadı. Ortalama otuz beş dakikalık bir oyun süresi göz önüne alındığında, bu 675 milyon Dota oyununa denk gelmektedir.
+                    </p>
+                </div>
+                
+                <div class="sample">
+                    <img src="media\yazilar\kendi-kendine-ogrenen-makineler\RoboticArmRl.gif", alt="RoboticArms", width="720", height="420">
+                    <h3 class="big-header", style="font-weight: 700; text-align: center;">Robotik</h3>
+                    <p>
+                        En çok pekiştirmeli öğrenme örneğini göreceğiniz alanlardan biri şüphesiz robotiktir. Karmaşık ve değişken dünyamızda görevlerini gerçekleştirmesi 
+                        gereken robotların başarılı olabilmesi için pekiştirmeli öğrenme son yıllarda oldukça geniş bir kullanım yelpazesi bulmuştur. Uzun eğitim süreleri
+                        hem simülasyon ortamında, hem de gerçek hayatta paralel sistemlerle gerçekleştirilebilen robotlar çok çeşitli olablir: robot kollar,  tekerlekli 
+                        veya bacaklı gezgin robotlar...
+                    </p>
+                </div>
+                <div class="sample">
+                    <iframe width="720" height="480"
+                        src="https://www.youtube.com/embed/eRwTbRtnT1I">
+                    </iframe>
+                    <h3 class="big-header", style="font-weight: 700; text-align: center;">Otonom Araçlar</h3>
+                    <p>
+                        Tamam, aslında pekiştirmeli öğrenme otonom araçlar için yaygın bir sistem mi açıkçası bilmiyorum fakat bu konu ile ilgili akademik çalışmaların son 
+                        yıllarda arttığını size söyleyebilirim. Yukarıda Wayve şirketinin simülasyon ortamı kullamadan direkt gerçek hayatta eğittiği otonom aracı görebilirsiniz.
+                        Bu video açıkçası çok hoşuma gidiyor çünkü aracın nasıl öğrendiği çok net bir şekilde görülebiliyor.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
